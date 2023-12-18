@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Kontakt
+  </title>
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Hedvig+Letters+Sans">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Hedvig+Letters+Serif">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/c80e433044.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+  <body>
+  
+  <header>
+    <nav>
+        <a href="index.html"><img src="image/arth.png" alt="logo" width="48" height="48" loading="lazy"></a>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars fa-2xl"></i>
+        </label>
+        <ul>
+            <li id="home"><a href="index.html">Hjem</a></li>
+            <li id="work"><a href="Projekter.html">Projekter</a></li>
+            <li id="about"><a href="Om_mig.html">Om mig</a></li>
+            <li id="contact"><a href="Kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+  </header>
+
+
+
+  <main>
+    <section>
+      <h1>
+        Kontaktinfo
+      </h1>
+      <p>
+        I skal være mere end velkommen til at kontakte mig på min mail eller telefon. 
+      <br> 
+        Eller i kan udfylde kontaktfomularen på hjemmesiden.
+      </p>
+      <img src="image/streg2farver.png" alt="Streg med farver" class="streg">
+      <h3 class="h2grøn">
+        arth5851@edu.ucl.dk
+        <br>
+        +45 53 34 96 20
+      </h3>
+
+    </section>
+
+    <div>
+      <div class="kontakt">                 
+        <form action="sendmail" method="post">                     
+          <label for="name">Emne:</label>                     
+          <input type="text" id="name" name="name" placeholder="John Johnson" required>                      
+          <label for="email">Email:</label>                     
+          <input type="email" id="email" name="email" placeholder="example@email.com" required>                      
+          <label for="message">Besked:</label>                     
+          <textarea id="message" name="message" rows="4" placeholder="Hello, skriv din besked her." required></textarea>                      
+          <a href="Submit.html" class="PrimaryButton"> Send Besked</a>                 
+        </form>             
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-left">
+      <p>Kontakt</p>
+      <p> arth58541@edu.ucl.dk</p>
+    </div>
+  </footer>
+</body>
+</html>
